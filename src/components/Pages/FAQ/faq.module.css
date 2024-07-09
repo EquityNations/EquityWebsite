@@ -1,0 +1,33 @@
+.faq{
+    width: 100%;
+    background-color: #fff;
+    margin: 0 auto;
+    position: relative;
+     display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.7) 40%, transparent 200%), url(../../../assets/faq.jpg);
+    background-size: auto;
+  
+
+ }
+
+.faq__Maxheight{
+min-height: 150vh;
+
+}
+
+.faq__Minheight {
+    min-height: 100vh;
+}
+
+
+.faq__accordian{
+    position: absolute;
+    width: 80%;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* flex-wrap: wrap; */
+}

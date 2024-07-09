@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.register__card_left{
+    background-image: linear-gradient(to bottom,rgba(91, 104, 176, 0.5),rgba(140, 104, 173, 0.8));
+}
+.register__form {
+    margin: 15% 3rem;
+}
+
+.register__card_right  {
+    background-image: linear-gradient(to bottom,rgba(91, 104, 176, 0.5),rgba(140, 104, 173, 0.8)),url(../../../assets/login.jpg);
+}
+
+.login__heading{
+    margin-bottom: 3rem;
+    font-size: 3rem;
+    text-align: center;
+}
+.forgot_password{
+    text-align: center;
+}
+.login__text{
+    position: absolute; 
+    bottom: 10%;
+}

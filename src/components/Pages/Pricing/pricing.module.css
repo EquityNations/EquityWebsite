@@ -1,0 +1,120 @@
+.pricing{
+    width: 100%;
+    height:100%;
+}
+
+.pricing__header{
+    position: relative;
+    height: 30rem;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.pricing__header--text{
+    position: relative;
+  height:8rem;
+  display: flex;
+  padding: 0 2rem;
+  font-size: 3rem;
+  border-bottom: 1px solid #c5bcce;
+  align-items: center;
+  
+}
+
+.pricing__header--content{
+    text-align: center;
+    padding: 1rem;
+    font-size: 3rem;
+    justify-content: center;
+  align-items: center;
+  max-width: 50rem;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  letter-spacing: .5px;
+  font-weight: 400;
+  transform: translate(-50%, -50%);
+}
+
+.pricing__header--content .word {
+    display: inline-block;
+}
+
+.pricing__quotes{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0;
+    background-color: #fff;
+    flex-direction: column;
+}
+
+.pricing__quotes__text{
+    max-width: 50rem;
+    text-wrap: pretty;
+    font-weight: 400;
+    color: #060606;
+    font-size: 1.6rem;
+}
+
+.pricing__quotes__card{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 75rem;
+    height: 40rem;
+}
+
+
+.pricing__quotes__card--content{
+    flex-basis: 45%;
+    width: 40rem    ;
+    border-radius: 1.5rem;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+    margin: 2rem 0;
+    position: relative;
+    cursor: pointer;
+    background-color: #060606;
+}
+
+.pricing__quotes__card--content img{
+    object-fit: cover;
+    object-position: center;
+    height: 15rem;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    width: 100%;
+    background-size: cover;
+}
+
+.pricing__quotes__card--content h3{
+    text-align: center;
+    padding: 1rem 0;
+    background-image: linear-gradient(to right,#8C68AD, #5B68B0);
+    background-clip: text;
+  -webkit-background-clip: text;
+    color: transparent;
+    font-size: 2rem;
+
+}
+
+.card__details ul {
+    list-style: none;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .card__details ul li {
+    text-align: center;
+    font-size: 1.4rem;
+    padding: 1rem;
+  }
+  .card__details ul li :not(:last-child) {
+    border-radius: 1px #f7f7f7;
+  }
+
+.pricing__quotes__button{
+   margin-top: 5rem;
+}

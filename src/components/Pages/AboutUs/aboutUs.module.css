@@ -1,0 +1,211 @@
+.about{
+    width: 100%;
+    height:100%;
+ 
+}
+
+.about__header{
+    position: relative;
+    height: 30rem;
+}
+
+.about__header--text{
+    position: relative;
+  height:8rem;
+  display: flex;
+  padding: 0 2rem;
+  font-size: 3rem;
+  border-bottom: 1px solid #c5bcce;
+  align-items: center;
+  
+}
+
+.about__header--content{
+    text-align: center;
+    padding: 1rem;
+    font-size: 3.5rem;
+    justify-content: center;
+  align-items: center;
+  max-width: 50rem;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  letter-spacing: .5px;
+  font-weight: 400;
+  transform: translate(-50%, -50%);
+}
+
+.about__header--content .word {
+    display: inline-block;
+    }
+
+.about__description{
+background-color: #fff;
+  color: #060606;
+  padding: 4rem 0 1rem;
+}
+
+.about__description__area{
+    margin: 0 auto;
+    max-width: 60rem;
+}
+.about__description__area h3{
+    font-weight: 400;
+    text-wrap: pretty;
+    letter-spacing: 0.5px;
+}
+
+.about__description__card{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    margin: auto;
+    justify-content: space-around;
+   
+}
+
+.about__description__card--content{
+    flex-basis: 45%;
+    width: 40rem    ;
+    border-radius: 1.5rem;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+    margin: 2rem 0;
+    position: relative;
+    cursor: pointer;
+}
+
+.about__description__card--content h3 ,.about__description__card--content p{
+    margin-left: 1rem;
+}
+
+.picture{
+    height: 18rem;
+    margin:0 0 1rem 1rem;
+    width: 20rem;
+}
+
+.icon {
+    bottom: 15px;
+    position: absolute;
+    right: 22px;
+    color: #060606;
+    text-shadow: 1px 1px 1px #ccc;
+    font-size: 1.5em;
+}
+
+.cardText{
+margin-left: 1rem;
+}
+
+.about__add__description{
+    margin: 3rem 0;
+    height:100%;
+    
+}
+
+.about__add__description__content{
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+    max-width: 65rem;
+    justify-content: space-between;
+    height:40rem;
+    margin: auto;
+    flex-direction: row;
+    margin-bottom: 6rem;
+    
+}
+
+.about__add__description__content:last-child{
+    margin-bottom: 2rem;
+}
+
+.about__add__description__content__left{
+    width:25rem;
+    margin:2rem;
+    background-color: #fff;
+    border-radius: 2rem;
+    display: flex;
+    
+}
+
+.about__add__description__content__left img{
+   object-fit: cover;
+   height: 100%;
+   border-radius: 2rem;
+}
+
+.about__add__description__content__right{
+    width:30rem;
+    margin:2rem;
+    background-color: #fff;
+    border-radius: 2rem;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    /* order: -1;   to swap child within container flex */
+}
+
+.about__founders{
+    height: 40rem;
+    padding-bottom: 2rem;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(to left top, rgba(9, 0, 15, 0.85),rgba(236, 202, 235, 0.85)), url(../../../assets/meetFoundersBg.jpg);
+}
+
+.about__founders__story{
+    display: flex;
+    justify-content: space-around;
+    max-width: 75%;
+    transform: skewX(-8deg);
+    
+    height: 100%;   
+    margin: auto;
+  
+}
+
+.about__founders__story__content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about__founders__story__shape{
+    width: 25rem;
+    height: 25rem;
+    -webkit-shape-outside: circle(50% at 50% 50%);
+    shape-outside: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%);
+    transform: translateX(-3rem) skewX(8deg);
+  }
+  .story__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    transform: translateX(-4rem) scale(1.4);
+
+  }
+  
+  .story__text {
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    font-size: 1.6rem;
+    margin-top: 7rem;
+    max-width: 50rem;
+     transform: skewX(8deg);
+  }
+  .box{
+    margin: 0 auto;
+    background-color: #f5f5f5;
+    border-radius: 60px;
+    max-width: 80%;
+    text-align: center;
+  }
+  .heading-secondary_about{
+   width: 90%;
+  }

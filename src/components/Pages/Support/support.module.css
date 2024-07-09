@@ -1,0 +1,28 @@
+.support{
+    height: calc(100% - 20px);
+    width: 100%;
+}
+
+.support__contactUs{
+    height: 20rem;  
+    padding: 1rem 0;
+    background-color: blueviolet;
+}
+
+.support__header {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.support__header h2{
+    height: 10rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.support__header img{
+    height:15rem;
+    width:30rem;
+    background-color: #fff;
+}
