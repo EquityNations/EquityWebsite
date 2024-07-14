@@ -200,7 +200,7 @@ export const Signup = () => {
                             </label>
                         </div>
                         <div className={classNames(commonClasses['submit_btn'])}>
-                            <button type='submit' placeholder='Create account'>Create account</button>
+                            <button type='submit'>Create account</button>
                         </div>
 
                         <div className={commonClasses.form__registered}>
