@@ -134,7 +134,7 @@ export const checkOutLatestList = () => {
         {
             id: '1',
             headerName: 'Get a 3% boost on retirement transfers by 4/30',
-            description: 'Get a 3% bonus on IRA transfers and 401(k) rollovers with Robinhood Gold. That’s more money now that can be more money later.',
+            description: 'Get a 3% bonus on IRA transfers and 401(k) rollovers with Gold. That’s more money now that can be more money later.',
             bgColor: 'lightslategray',
             imagePath: cardImg5,
             buttonText: 'Start With Extra'
@@ -142,14 +142,14 @@ export const checkOutLatestList = () => {
         {
             id: '2',
             headerName: 'Bring your portfolio over for a bonus.',
-            description: 'Earn a 1% bonus when you transfer your brokerage account to Robinhood, now through January 31, 2024. No cap.',
+            description: 'Earn a 1% bonus when you transfer your brokerage account, now through January 31, 2024. No cap.',
             bgColor: 'lightsteelblue',
             imagePath: cardImg6,
             buttonText: 'Claim Your Bonus'
         },
         {
             id: '3',
-            headerName: 'Make money on your money with Robinhood Gold',
+            headerName: 'Make money on your money with Gold',
             description: 'Earn our highest rate ever on uninvested cash, FDIC-insured up to $2.25M at partner banks. First 30 days are free, then a subscription fee applies.',
             bgColor: 'darkseagreen',
             imagePath: cardImage3,
@@ -174,7 +174,7 @@ export const checkOutLatestList = () => {
         {
             id: '6',
             headerName: 'Bring your portfolio over for a bonus.',
-            description: 'Earn a 1% bonus when you transfer your brokerage account to Robinhood, now through January 31, 2024. No cap.',
+            description: 'Earn a 1% bonus when you transfer your brokerage account, now through January 31, 2024. No cap.',
             bgColor: 'lightseagreen',
             imagePath: cardImage1,
             buttonText: 'Start With Extra'

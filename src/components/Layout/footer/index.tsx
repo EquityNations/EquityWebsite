@@ -66,7 +66,6 @@ export const Footer =()=>{
                 <h3 className={classNames(classes['heading-light'],classes['heading-light--white'] ,classes['u-padding-bottom-small'])}>Services</h3>
                <ul>
                 <li>Global Investing</li>
-                <li>Crypto</li>
                  </ul>
             </div>
 

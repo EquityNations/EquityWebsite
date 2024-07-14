@@ -97,19 +97,7 @@ export const AboutUs = (props: any) => {
 
 
             </div>
-            <div className={classes.about__founders}>
-               <div className={classes.about__founders__story}>
-                  <div className={classes.about__founders__story__content}>
-                     <figure className={classes.about__founders__story__shape}>
-                        <img src={img} alt="Person on a tour" className={classes.story__img}></img>
-                     </figure>
-                  </div>
-                  <div className={classes.story__text}>
-                     <h2 className='u-margin-bottom-small'>Meet Our Founders</h2>
-                     <p>Our story began at Stanford, where co-founders Baiju and Vlad were roommates and classmates. After graduating, they packed their bags for New York City and built two finance companies, selling their own trading software to hedge funds. There, they discovered that big Wall Street firms were paying next-to-nothing to trade stocks, while most Americans were charged commission for every single trade. They wanted to change that, so they headed back to California to build a financial product that would give everyone—not just the wealthy—access to financial markets.</p>
-                  </div>
-               </div>
-            </div>
+           
 
          </div>
          <Modal
